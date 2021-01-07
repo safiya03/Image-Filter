@@ -1,0 +1,68 @@
+ 
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Filter</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE HTML>
+<html>
+  <head>
+  <meta charset="utf-8">
+   <title> Safiya's Image Filter   </title>
+  </head>
+  <script src = https://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js> 
+    </script>
+  
+  <body>
+  
+    
+
+    <h1> Safiya's Image Filter </h1>
+    
+    
+    <p> This simple page allows the user to input an image and select a few filters to apply</p>
+    
+    <div class = "Box">
+      
+      <img src="https://www.drupal.org/files/project-images/Screen%20Shot%202016-10-11%20at%206.10.18%20AM.png" width="25%">
+      
+      <ol>
+        <li>Load an Image</li>
+        <li>Click the filter you would like to apply</li>
+        <li>Once a filter is applied, you can either reset the image, or apply a new image</li>
+        <li>Use snipping tool to save the image</li>
+        
+      </ol>
+    
+    <canvas id = "foreground"> </canvas>
+     <br> </br>
+ <h2>Load Image:</h2> <input type="file" multiple = "false" accept = "image/*" id = "fgfile" onchange = "upload()">  
+    
+  <br></br>
+    <h2>Choose Filter: </h2>
+    
+  <br></br>
+    <input type = "button" value = "GrayScale" onclick= "grayscale()">
+     
+   <input type = "button" value = "Red" onclick= "red()">
+<input type = "button" value = "Rainbow" onclick= "rainbow()">
+Border color : <input type = "color" value = "#FF0000" id = "clr" onclick = "doColor()">
+<input type="button" value="Add Border" onclick= "border()">
+<input type="button" value="Blur Image" onclick= "toblur()">
+<input type = "button" value = "Reset Image" onclick= "reset()">
+
+
+    
+</div>
+  </body>
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
