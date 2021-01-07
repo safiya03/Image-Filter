@@ -1,0 +1,59 @@
+body {
+  background-color: 	lightgreen;
+}
+
+p{
+  font-size: 20px;
+}
+h1{
+  color: blue;
+  text-align : center;
+  font-size: 40px;
+  font-family: Impact,     Charcoal, sans-serif;
+  border-style: solid;
+  border-radius: 3px;
+  border-width: 1px;
+  border-color: black;
+  background-color: ghostwhite;
+}
+
+.first {
+  color: red;
+  background-color: orange;
+
+}
+
+input (
+ font-size: 40px;
+)
+
+.second {
+  color: green;
+  background-color: fuchsia;
+}
+
+.lime {
+  background-color: lime;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+canvas {
+  width: 500px;
+  height: 300px;
+  border: 1px solid #000000;
+}
+
+
+.Box {
+  background-color: skyblue;
+  border: solid;
+  border-width: 3px;
+  border-color: Red;
+  margin: 0px 20px 15px 20px;
+  padding: 0px 15px 15px 15px;
+  border-radius: 20px;
+  font-family: Verdana, Geneva, sans-serif;
+}
